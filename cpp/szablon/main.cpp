@@ -3,6 +3,9 @@
 using namespace std;
 
 int main(){
-	cout<<"witaj swiecie"<<endl;
+for(int i= 0; i < 3; i++){
+cout << "*";
+}
+cout << endl;
 	return 0;
 }
