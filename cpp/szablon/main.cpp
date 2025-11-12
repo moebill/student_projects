@@ -1,11 +1,15 @@
 #include <iostream>
 
 using namespace std;
-
 int main(){
-for(int i= 0; i < 3; i++){
-cout << "*";
+int x;
+cout<<"podaj x:";
+cin>>x;	
+if(x%21==0){
+cout<<"liczba jest podzielna przez 21"<<endl;
+}else{
+cout<<"nie podzielna przez 21"<<endl;
 }
-cout << endl;
-	return 0;
+return 0;
 }
+
